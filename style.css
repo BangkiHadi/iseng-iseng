@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    margin: 50px;
+}
+
+.container i{
+    justify-content: center;
+    display: inline-flex;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    margin: .3rem 0;
+    border: .1rem solid #512a10;
+    color: #512a10;
+}
+
+i:hover{
+    background: #512a10;
+    color: #fff;
+}
